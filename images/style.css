@@ -69,3 +69,9 @@ body, html {
     margin-bottom: 0;
     color: black;
 }
+
+.header-text-p {
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+}
