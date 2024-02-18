@@ -37,3 +37,35 @@ body, html {
 .overlay-text p {
     font-size: 1.5em;
 }
+
+.header-text {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 44px;
+}
+.row {
+    display: flex;
+    gap: 20px;
+    margin: 30px;
+    /* border-radius: 5px; */
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    gap: 200px;
+    display: flex;
+    background-color: yellowgreen;
+}
+
+.column h2 {
+    margin-top: 0;
+    color: black;
+}
+
+.column p {
+    margin-bottom: 0;
+    color: black;
+}
